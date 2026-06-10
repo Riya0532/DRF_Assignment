@@ -7,7 +7,7 @@ It provides endpoints to manage students and teachers with proper validation and
 
 ## 🚀 Setup Instructions
 
-1. **Create and activate a virtual environment**
+1.**Create and activate a virtual environment**
    ```bash
    python -m venv venv
    source venv/bin/activate   # On Linux/Mac
