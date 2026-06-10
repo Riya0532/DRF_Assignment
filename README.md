@@ -17,14 +17,14 @@ It provides endpoints to manage students and teachers with proper validation and
    ```bash
    pip install django djangorestframework
 
-3. **Configure settings**
+3.**Configure settings**
    Add 'rest_framework' and 'school' to INSTALLED_APPS in settings.py.
 
-4. **Run migrations**
+4.**Run migrations**
    ```bash
    python manage.py makemigrations
    python manage.py migrate
 
-5. **Start the server**
+5.**Start the server**
    ```bash
    python manage.py runserver
