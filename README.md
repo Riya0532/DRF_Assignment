@@ -11,26 +11,26 @@ It provides endpoints to manage students and teachers with proper validation and
 
     ```bash
     
-   python -m venv venv
+    python -m venv venv
    
-   source venv/bin/activate   # On Linux/Mac
+    source venv/bin/activate   # On Linux/Mac
    
-   venv\Scripts\activate      # On Windows
+    venv\Scripts\activate      # On Windows
    
 2.**Install dependencies**
 
-  pip install django djangorestframework
+    pip install django djangorestframework
 
 3.**Configure settings**
 
-  Add 'rest_framework' and 'school' to INSTALLED_APPS in settings.py.
+    Add 'rest_framework' and 'school' to INSTALLED_APPS in settings.py.
   
 4.**Run migrations**
 
-  python manage.py makemigrations
+    python manage.py makemigrations
   
-  python manage.py migrate
+    python manage.py migrate
   
 5.**Start the server**
 
-  python manage.py runserver
+    python manage.py runserver
